@@ -145,7 +145,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 RUN apt-get update && apt-get install --no-install-recommends -y \
     python3-numpy \
     libboost-iostreams-dev \
-    libboost-numpy-dev
+    libboost-numpy-dev \
     libboost-python-dev \   
     libboost-regex-dev \
     libboost-system-dev \
