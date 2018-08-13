@@ -142,6 +142,15 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     xvfb \
     matchbox-window-manager
 
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    python3-numpy \
+    libboost-iostreams-dev \
+    libboost-numpy-dev
+    libboost-python-dev \   
+    libboost-regex-dev \
+    libboost-system-dev \
+    libboost-thread-dev
+   
 ENV DISPLAY=:99
 
 # Create a user to own the build output.
