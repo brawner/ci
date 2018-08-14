@@ -145,9 +145,8 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 RUN apt-get update && apt-get install --no-install-recommends -y \
     python3-numpy \
     python3-opencv \
-    libboost-all-dev \
-    
-   
+    libboost-all-dev
+
 ENV DISPLAY=:99
 
 # Create a user to own the build output.
