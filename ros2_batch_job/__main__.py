@@ -61,6 +61,7 @@ pip_dependencies = [
     'flake8-quotes',
     'mock',
     'nose',
+    'numpy',
     'pep8',
     'pydocstyle',
     'pyflakes',
