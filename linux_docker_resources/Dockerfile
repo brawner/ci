@@ -144,12 +144,9 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
     python3-numpy \
-    libboost-iostreams-dev \
-    libboost-numpy-dev \
-    libboost-python-dev \   
-    libboost-regex-dev \
-    libboost-system-dev \
-    libboost-thread-dev
+    python3-opencv \
+    libboost-all-dev \
+    
    
 ENV DISPLAY=:99
 
